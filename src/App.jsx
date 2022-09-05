@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
     return (
-      <div>
+      <div className="container">
         <Main />
         <Navbar />
       </div>
