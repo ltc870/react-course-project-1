@@ -10,4 +10,44 @@ html {
 
 body {
     font-family: Inter, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.navbar-flex {
+    background-color: #21222a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.navbar-child1 {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    padding: 1em 0;
+}
+
+.navbar-child1-logo {
+    width: 15%;
+}
+
+.navbar-child1-text {
+    color: #61dafb;
+    font-weight: 700;
+    margin-left: .5em;
+    font-size: 22.25px;
+}
+
+.navbar-child2-text {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 1.5em;
 }
