@@ -55,6 +55,9 @@ body {
 .main {
     background-color: #282D35;
     padding: 2em 2em 5em;
+    background-image: url(/src/images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: 100% 68%;
 }
 
 .main-title {
